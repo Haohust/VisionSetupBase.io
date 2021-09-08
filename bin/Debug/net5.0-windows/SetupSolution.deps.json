@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SetupSolution/1.0.0": {
+        "dependencies": {
+          "ST4I.Vision.ImageBox": "2.1.0.0"
+        },
+        "runtime": {
+          "SetupSolution.dll": {}
+        }
+      },
+      "ST4I.Vision.ImageBox/2.1.0.0": {
+        "runtime": {
+          "ST4I.Vision.ImageBox.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SetupSolution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ST4I.Vision.ImageBox/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

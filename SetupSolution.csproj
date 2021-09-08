@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.5.3.4721" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.5.3.4721" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.3.4721" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.5.3.4721" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NationalInstruments.Common">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.MStudioCLM">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.MStudioCLM.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.NiLmClientDLL">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.NiLmClientDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Vision">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Vision.Acquisition.Imaqdx">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.Vision.Acquisition.Imaqdx.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Vision.Common">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.Vision.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Vision.MeasurementStudioDemo.2008">
+      <HintPath>..\packages\Labview\x64\NationalInstruments.Vision.MeasurementStudioDemo.2008.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.ImageBox">
+      <HintPath>..\packages\ST4I.Vision.ImageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Vision.Utils">
+      <HintPath>..\packages\ST4I.Vision.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="ST4I.Wpf.Themes">
+      <HintPath>..\packages\ST4I.Wpf.Themes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

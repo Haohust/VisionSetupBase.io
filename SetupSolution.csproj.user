@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DrawTemp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PropertyControl\PropertiesBarCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PropertyControl\PropertiesCaliper.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PropertyControl\PropertiesItensity.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PropertyControl\PropertiesMatching.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PropertyControl\PropertiesQRCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DrawTemp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PropertyControl\PropertiesBarCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PropertyControl\PropertiesCaliper.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PropertyControl\PropertiesItensity.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PropertyControl\PropertiesMatching.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PropertyControl\PropertiesQRCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
